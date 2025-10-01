@@ -1,0 +1,36 @@
+/* Font & body */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Card hover effect */
+.hover-glow {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-glow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(0, 255, 255, 0.6),
+              0 0 16px rgba(0, 255, 255, 0.3);
+}
+
+/* Card icons */
+.card-icon {
+  font-size: 3rem;  /* large emoji */
+  line-height: 1;
+}
+
+/* Card text */
+.card h3,
+.card p {
+  color: #fff;
+}
+
+/* Buttons */
+.card a.btn-info {
+  background-color: #0ff;
+  color: #000;
+  font-weight: 600;
+}
+.card a.btn-info:hover {
+  background-color: #0cc;
+}
