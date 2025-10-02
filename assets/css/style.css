@@ -1,3 +1,30 @@
+
+#hero h1 {
+  font-size: 5rem;          /* very big, main focus */
+  font-weight: 900;         /* bold/heavy */
+  letter-spacing: 0.3rem;   /* spaced out letters for impact */
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;              /* white text */
+  letter-spacing: 0.7em;
+
+  text-shadow: 
+    0 0 6px #0ff,   /* bright cyan glow */
+    0 0 14px #0ff,  /* softer outer glow */
+    0 0 20px #0cc;  /* deeper turquoise */
+}
+
+h2 {
+  font-size: 2rem;           /* big but not too huge */
+  font-weight: 700;
+  text-transform: uppercase;    /* all caps */
+  letter-spacing: 0.3em;        /* space letters out */
+  margin-bottom: 0.5rem;
+  color: #0ff;                  /* cyan accent */
+  text-shadow: 0 0 6px rgba(0,255,255,0.4); /* subtle glow */
+}
+
 /* Font & body */
 body {
   font-family: 'Inter', sans-serif;
@@ -23,6 +50,16 @@ body {
 .card h3,
 .card p {
   color: #fff;
+}
+
+.card h3 {
+  font-size: 1.5rem;           /* big but not too huge */
+  font-weight: 700;
+  text-transform: uppercase;    /* all caps */
+  letter-spacing: 0.1em;        /* space letters out */
+  margin-bottom: 0.5rem;
+  color: #0ff;                  /* cyan accent */
+  text-shadow: 0 0 6px rgba(0,255,255,0.4); /* subtle glow */
 }
 
 /* Buttons */
