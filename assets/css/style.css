@@ -1,28 +1,29 @@
-
+/* Hero Title */
 #hero h1 {
-  font-size: 5rem;          /* very big, main focus */
-  font-weight: 900;         /* bold/heavy */
-  letter-spacing: 0.3rem;   /* spaced out letters for impact */
+  font-size: clamp(2.5rem, 8vw, 8rem);  /* now grows larger on wide screens */
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: clamp(0.3em, 1vw, 0.7em);
   margin-bottom: 1rem;
   line-height: 1.1;
-  text-transform: uppercase;
-  color: #fff;              /* white text */
-  letter-spacing: 0.7em;
-
+  color: #fff;
   text-shadow: 
-    0 0 6px #0ff,   /* bright cyan glow */
-    0 0 14px #0ff,  /* softer outer glow */
-    0 0 20px #0cc;  /* deeper turquoise */
+    0 0 6px #0ff,
+    0 0 14px #0ff,
+    0 0 20px #0cc;
 }
 
+
+
+/* Section Titles */
 h2 {
-  font-size: 2rem;           /* big but not too huge */
+  font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 700;
-  text-transform: uppercase;    /* all caps */
-  letter-spacing: 0.3em;        /* space letters out */
+  text-transform: uppercase;
+  letter-spacing: clamp(0.15em, 0.4vw, 0.3em);
   margin-bottom: 0.5rem;
-  color: #0ff;                  /* cyan accent */
-  text-shadow: 0 0 6px rgba(0,255,255,0.4); /* subtle glow */
+  color: #0ff;
+  text-shadow: 0 0 6px rgba(0,255,255,0.4);
 }
 
 /* Font & body */
